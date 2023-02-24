@@ -36,7 +36,9 @@
                                         <div class="py-6 border-b border-gray-200">
                                             <h2 class="text-2xl text-indigo-900 font-bold">Pulse Lime</h2>
                                             <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please.</p>
-                                            <p class="text-sm text-red-600">Make an order</p>
+                                            <div @click="scrollToAnchorPoint('home')" class="">
+                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -47,7 +49,9 @@
                                         <div class="py-6 border-b border-gray-200">
                                             <h2 class="text-2xl text-indigo-900 font-bold">Pulse cranberry</h2>
                                             <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
-                                            <p class="text-sm text-red-600">Make an order</p>
+                                            <div @click="scrollToAnchorPoint('home')" class="">
+                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -60,7 +64,9 @@
                                         <div class="py-6 border-b border-gray-200">
                                             <h2 class="text-2xl text-indigo-900 font-bold">Pulse blackberry</h2>
                                             <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
-                                            <p class="text-sm text-red-600">Make an order</p>
+                                            <div @click="scrollToAnchorPoint('home')" class="">
+                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -71,7 +77,9 @@
                                         <div class="py-6 border-b border-gray-200">
                                             <h2 class="text-2xl text-indigo-900 font-bold">Pulse Lime</h2>
                                             <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
-                                            <p class="text-sm text-red-600">Make an order</p>
+                                           <div @click="scrollToAnchorPoint('home')" class="">
+                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -84,7 +92,9 @@
                                         <div class="py-6 border-b border-gray-200">
                                             <h2 class="text-2xl text-indigo-900 font-bold">Pulse cranberry</h2>
                                             <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
-                                            <p class="text-sm text-red-600">Make an order</p>
+                                            <div @click="scrollToAnchorPoint('home')" class="">
+                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -95,7 +105,9 @@
                                         <div class="py-6 border-b border-gray-200">
                                             <h2 class="text-2xl text-indigo-900 font-bold">Pulse blackberry</h2>
                                             <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
-                                            <p class="text-sm text-red-600">Make an order</p>
+                                           <div @click="scrollToAnchorPoint('home')" class="">
+                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -108,7 +120,9 @@
                                         <div class="py-6 border-b border-gray-200">
                                             <h2 class="text-2xl text-indigo-900 font-bold">Pulse Lime</h2>
                                             <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
-                                            <p class="text-sm text-red-600">Make an order</p>
+                                           <div @click="scrollToAnchorPoint('home')" class="">
+                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -119,8 +133,9 @@
                                         <div class="py-6 border-b border-gray-200">
                                             <h2 class="text-2xl text-indigo-900 font-bold">Pulse cranberry</h2>
                                             <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
-                                            <p class="text-sm text-red-600">Make an order</p>
-                                            
+                                           <div @click="scrollToAnchorPoint('home')" class="">
+                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -131,9 +146,11 @@
             </div>
         </div>
     </div>
+    <RouterView />
 </template>
 
 <script>
+import { RouterLink, RouterView } from 'vue-router'
 export default {
     name: "2EventsWithSlider",
     mounted() {
