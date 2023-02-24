@@ -69,11 +69,11 @@
             </div>
             <div class="flex justify-center bg-white p-4 rounded shadow items-center w-full">
                 <div class="w-full sm:w-96 md:w-8/12 lg:w-full grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:gap-28 sm:gap-x-6 sm:gap-y-12 gap-y-12 sm:mt-14 mt-10">
-                    <div>
+                    <div class="flex ">
                         <img class="dark:hidden"  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/productDetail4-svg2.svg" alt="drink">
                         <img class="hidden dark:block"  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/productDetail4-svg2dark.svg" alt="drink">
-                        <p class="font-semibold text-xl leading-5 text-gray-800 dark:text-white lg:mt-10 mt-9">Great for drinks</p>
-                        <p class="text-normal text-base leading-6 text-gray-600  mt-4">Here are all the great cocktail recipes you should know how to make, from the margarita to the whiskey sour. Cheers!</p>
+                        <p class="font-semibold text-base leading-5 text-gray-800 dark:text-white lg:mt-10 pt-3">We bring the party where you are.</p>
+                        
                     </div>
                     
                 </div>

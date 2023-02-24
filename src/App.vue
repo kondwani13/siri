@@ -85,14 +85,14 @@
           <div class="mx-auto container w-full flex flex-col justify-center items-center">
             <div class="flex justify-center items-center flex-col">
               <div class="lg:mt-20 mt-9">
-               <div class="flex justify-center">
+               
                 <h2 class="lg:text-3xl pb-2 text-center md:text-2xl text-2xl font-black leading-10 text-white">Online liquor store</h2>
-                <img class="w-5 h-auto" src="https://i.ibb.co/V2GMPXn/glas.png" alt="glass">
-                </div>
+                
+                
                 <h2 class="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-white">Taste the difference</h2>
               </div>
               <div class="mt-6 mx-2 md:mx-0 text-center">
-                <p class="lg:text-lg md:text-base leading-6 text-sm text-white">We bring the party where you are</p>
+                <p class="lg:text-lg md:text-base leading-6 text-sm text-white">We save the following</p>
               </div>
             </div>
           </div>
