@@ -1,5 +1,17 @@
 <template>
+
     <div class="mx-auto container py-12">
+      <div class=" 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+            <div class="lg:w-10/12 w-full px-4">
+                <p class="font-normal text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer text-left"></p>
+                <h2 class="xl:w-8/12 lg:w-10/12 w-full font-bold text-gray-800 lg:text-4xl text-3xl lg:leading-10 leading-9 mt-2 text-left">About Us</h2>
+                <p class="font-normal text-base leading-6 text-gray-600 mt-6 text-left">Welcome to Siri Investment Limited, a leading manufacturer and distributor of high-quality alcoholic beverages.
+
+At Siri Investment Limited, we are passionate about creating exceptional alcoholic beverages that are enjoyed by people all over the country. <br>  Our company was founded on the principles of quality, innovation, and integrity, and we have been producing some of the finest spirits, wines, and beers for many years.
+
+<br>    Our extensive range of alcoholic beverages includes a wide variety of products, from premium spirits like whiskey, gin, and vodka, to a range of refreshing beers and ciders, and a selection of high-quality wines. <br>We are committed to using only the finest ingredients and the latest production techniques to ensure that our products are of the highest quality and meet the highest standards.</p>
+            </div>
+            </div>
         <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             <div class="flex justify-center w-full lg:border-r border-gray-300 py-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="69" viewBox="0 0 64 69" fill="none">
