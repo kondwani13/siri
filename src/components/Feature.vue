@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6 lg:px-16 xl:px-0 mx-auto container py-16">
+    <div class="-mt-7 px-6 lg:px-16 xl:px-0 mx-auto container py-16">
         <div class="">
             <div class="lg:px-16">
                 <div class="lg:flex flex-wrap items-center">

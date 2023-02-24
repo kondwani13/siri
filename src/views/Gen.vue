@@ -47,21 +47,21 @@
                         <hr class="bg-gray-200 w-full mt-4" />
                     </div>
       
-                    <button class="focus:outline-none focus:ring-2 hover:bg-black focus:ring-offset-2 focus:ring-gray-800 font-medium text-base leading-4 text-white bg-gray-800 w-full py-5 lg:mt-12 mt-6 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100">Buy</button>
+                   <a a href="https://wa.me/260973096810"> <button class="focus:outline-none focus:ring-2 hover:bg-black focus:ring-offset-2 focus:ring-gray-800 font-medium text-base leading-4 text-white bg-gray-800 w-full py-5 lg:mt-12 mt-6 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100">Buy</button></a>
                 </div>
       
                 <!-- Preview Images Div For larger Screen-->
       
                 <div class="w-full sm:w-96 md:w-8/12 lg:w-6/12 flex lg:flex-row flex-col lg:gap-8 sm:gap-6 gap-4">
                     <div class="w-full lg:w-8/12 bg-gray-100 flex justify-center items-center">
-                        <img src="https://i.ibb.co/4ZH2Lxr/shot.png" alt="Wooden Chair Previw" />
+                        <img class="w-40" src="https://i.ibb.co/4ZH2Lxr/shot.png" alt="Wooden Chair Previw" />
                     </div>
                     <div class="w-full lg:w-4/12 grid lg:grid-cols-1 sm:grid-cols-4 grid-cols-2 gap-6">
                         <div class="bg-gray-100 flex justify-center items-center py-4">
-                            <img src="https://i.ibb.co/4ZH2Lxr/shot.png" alt="Wooden chair - preview 1" />
+                            <img class="w-40" src="https://i.ibb.co/4ZH2Lxr/shot.png" alt="Wooden chair - preview 1" />
                         </div>
                         <div class="bg-gray-100 flex justify-center items-center py-4">
-                            <img src="https://i.ibb.co/4ZH2Lxr/shot.png" alt="Wooden chair - preview 2" />
+                            <img class="w-40" src="https://i.ibb.co/4ZH2Lxr/shot.png" alt="Wooden chair - preview 2" />
                         </div>
                        
                     </div>
