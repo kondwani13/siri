@@ -45,7 +45,7 @@
       
                 <!-- Preview Images Div For larger Screen-->
       
-                <div class="w-full sm:w-96 md:w-8/12 lg:w-6/12 flex lg:flex-row flex-col lg:gap-8 sm:gap-6 gap-4">
+                <div class="w-full -mt-6 sm:w-96 md:w-8/12 lg:w-6/12 flex lg:flex-row flex-col lg:gap-8 sm:gap-6 gap-4">
                     <div class="w-full lg:w-8/12 bg-gray-100 flex justify-center items-center">
                         <img class="w-40" src="https://i.ibb.co/99NN91S/gens.png" alt="shot" />
                     </div>
