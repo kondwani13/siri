@@ -5,10 +5,10 @@
                 <div class="lg:flex flex-wrap items-center">
                     <div class="lg:w-1/3 w-full pb-6 md:pb-0 md:pr-6">
                         <div class="w-full">
-                            <h1 class="text-3xl lg:text-5xl font-bold text-black tracking-wider lg:w-11/12 leading-relaxed">Our six pack beverages </h1>
+                            <h1 style="color:#d29146;" class="text-3xl lg:text-5xl font-bold text-black tracking-wider lg:w-11/12 leading-relaxed">Our cake platters </h1>
                             <div class="py-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="2" viewBox="0 0 60 2" fill="none">
-                                    <rect width="60" height="2" fill="#E53E3E"></rect>
+                                    <rect width="60" height="2" fill="#d29146"></rect>
                                 </svg>
                             </div>
                             <div class="flex w-full pt-8">
@@ -31,26 +31,26 @@
                                 <div class="lg:flex" style="transform: translateX(0%)">
                                     <div class="">
                                         <div class="relative h-96">
-                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/VQfJG3Y/sixp1.jpg" alt="" />
+                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/1sSqhBn/platter2.png" alt="" />
                                         </div>
                                         <div class="py-6 border-b border-gray-200">
-                                            <h2 class="text-2xl text-indigo-900 font-bold">Pulse Lime</h2>
-                                            <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please.</p>
+                                            <h2 class="text-2xl text-indigo-900 font-bold">Chocolate Raspberry Cake</h2>
+                                            <p class="py-3 text-sm text-gray-700 leading-7">Introducing our delicious cake combo product! This delectable treat features two layers of moist vanilla cake, filled with creamy chocolate ganache and topped with fluffy vanilla buttercream frosting.</p>
                                             <div @click="scrollToAnchorPoint('home')" class="">
-                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                           <RouterLink to="/platter2"><p class="text-sm text-red-600">Make an order</p></RouterLink>
                                             </div>
                                             
                                         </div>
                                     </div>
                                     <div class="hidden lg:block lg:ml-8">
                                          <div class="relative h-96">
-                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/VQfJG3Y/sixp1.jpg" alt="" />
+                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/jH6snyk/platter.png" alt="" />
                                         </div>
                                         <div class="py-6 border-b border-gray-200">
-                                            <h2 class="text-2xl text-indigo-900 font-bold">Pulse cranberry</h2>
-                                            <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
+                                            <h2 class="text-2xl text-indigo-900 font-bold">Chocolate Hazelnut Cake</h2>
+                                            <p class="py-3 text-sm text-gray-700 leading-7">Introducing our delicious cake combo product! This delectable treat features two layers of moist vanilla cake, filled with creamy chocolate ganache and topped with fluffy vanilla buttercream frosting.</p>
                                             <div @click="scrollToAnchorPoint('home')" class="">
-                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                           <RouterLink to="/platter2"><p class="text-sm text-red-600">Make an order</p></RouterLink>
                                             </div>
                                             
                                         </div>
@@ -59,26 +59,26 @@
                                 <div class="lg:flex" style="transform: translateX(100%)">
                                     <div class="">
                                          <div class="relative h-96">
-                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/VQfJG3Y/sixp1.jpg" alt="" />
+                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/G5vGw0k/pcup.png" alt="" />
                                         </div>
                                         <div class="py-6 border-b border-gray-200">
-                                            <h2 class="text-2xl text-indigo-900 font-bold">Pulse blackberry</h2>
-                                            <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
+                                            <h2 class="text-2xl text-indigo-900 font-bold">Black Forest Cake</h2>
+                                            <p class="py-3 text-sm text-gray-700 leading-7">Introducing our delicious cake combo product! This delectable treat features two layers of moist vanilla cake, filled with creamy chocolate ganache and topped with fluffy vanilla buttercream frosting.</p>
                                             <div @click="scrollToAnchorPoint('home')" class="">
-                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                           <RouterLink to="/platter2"><p class="text-sm text-red-600">Make an order</p></RouterLink>
                                             </div>
                                             
                                         </div>
                                     </div>
                                     <div class="hidden lg:block lg:ml-8">
                                          <div class="relative h-96">
-                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/VQfJG3Y/sixp1.jpg" alt="" />
+                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/1sSqhBn/platter2.png" alt="" />
                                         </div>
                                         <div class="py-6 border-b border-gray-200">
-                                            <h2 class="text-2xl text-indigo-900 font-bold">Pulse Lime</h2>
-                                            <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
+                                            <h2 class="text-2xl text-indigo-900 font-bold">Strawberry Shortcake</h2>
+                                            <p class="py-3 text-sm text-gray-700 leading-7">Introducing our delicious cake combo product! This delectable treat features two layers of moist vanilla cake, filled with creamy chocolate ganache and topped with fluffy vanilla buttercream frosting.</p>
                                            <div @click="scrollToAnchorPoint('home')" class="">
-                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                           <RouterLink to="/platter2"><p class="text-sm text-red-600">Make an order</p></RouterLink>
                                             </div>
                                             
                                         </div>
@@ -87,26 +87,26 @@
                                 <div class="lg:flex" style="transform: translateX(200%)">
                                     <div class="">
                                          <div class="relative h-96">
-                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/VQfJG3Y/sixp1.jpg" alt="" />
+                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/jH6snyk/platter.png" alt="" />
                                         </div>
                                         <div class="py-6 border-b border-gray-200">
-                                            <h2 class="text-2xl text-indigo-900 font-bold">Pulse cranberry</h2>
-                                            <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
+                                            <h2 class="text-2xl text-indigo-900 font-bold">Chocolate Hazelnut Cake</h2>
+                                            <p class="py-3 text-sm text-gray-700 leading-7">Introducing our delicious cake combo product! This delectable treat features two layers of moist vanilla cake, filled with creamy chocolate ganache and topped with fluffy vanilla buttercream frosting.</p>
                                             <div @click="scrollToAnchorPoint('home')" class="">
-                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                           <RouterLink to="/platter2"><p class="text-sm text-red-600">Make an order</p></RouterLink>
                                             </div>
                                             
                                         </div>
                                     </div>
                                     <div class="hidden lg:block lg:ml-8">
                                          <div class="relative h-96">
-                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/VQfJG3Y/sixp1.jpg" alt="" />
+                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/G5vGw0k/pcup.png" alt="" />
                                         </div>
                                         <div class="py-6 border-b border-gray-200">
-                                            <h2 class="text-2xl text-indigo-900 font-bold">Pulse blackberry</h2>
-                                            <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
+                                            <h2 class="text-2xl text-indigo-900 font-bold">Black Forest Cake</h2>
+                                            <p class="py-3 text-sm text-gray-700 leading-7">Introducing our delicious cake combo product! This delectable treat features two layers of moist vanilla cake, filled with creamy chocolate ganache and topped with fluffy vanilla buttercream frosting.</p>
                                            <div @click="scrollToAnchorPoint('home')" class="">
-                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                           <RouterLink to="/platter2"><p class="text-sm text-red-600">Make an order</p></RouterLink> 
                                             </div>
                                             
                                         </div>
@@ -115,26 +115,26 @@
                                 <div class="lg:flex" style="transform: translateX(300%)">
                                     <div class="">
                                          <div class="relative h-96">
-                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/VQfJG3Y/sixp1.jpg" alt="" />
+                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/1sSqhBn/platter2.png" alt="" />
                                         </div>
                                         <div class="py-6 border-b border-gray-200">
-                                            <h2 class="text-2xl text-indigo-900 font-bold">Pulse Lime</h2>
-                                            <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
+                                            <h2 class="text-2xl text-indigo-900 font-bold">Strawberry Shortcake</h2>
+                                            <p class="py-3 text-sm text-gray-700 leading-7">Introducing our delicious cake combo product! This delectable treat features two layers of moist vanilla cake, filled with creamy chocolate ganache and topped with fluffy vanilla buttercream frosting.</p>
                                            <div @click="scrollToAnchorPoint('home')" class="">
-                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                           <RouterLink to="/platter2"><p class="text-sm text-red-600">Make an order</p></RouterLink>
                                             </div>
                                             
                                         </div>
                                     </div>
                                     <div class="hidden lg:block lg:ml-8">
                                        <div class="relative h-96">
-                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/VQfJG3Y/sixp1.jpg" alt="" />
+                                            <img class="absolute inset-0 object-cover object-center w-full h-full" src="https://i.ibb.co/jH6snyk/platter.png" alt="" />
                                         </div>
                                         <div class="py-6 border-b border-gray-200">
-                                            <h2 class="text-2xl text-indigo-900 font-bold">Pulse cranberry</h2>
-                                            <p class="py-3 text-sm text-gray-700 leading-7">Pulse is a refreshing and vibrant alcoholic beverage that's perfect for those who want to unwind and enjoy a tasty drink. Made with premium quality ingredients, Pulse delivers a smooth and subtle taste that's sure to please</p>
+                                            <h2 class="text-2xl text-indigo-900 font-bold">Chocolate Hazelnut Cake</h2>
+                                            <p class="py-3 text-sm text-gray-700 leading-7">Introducing our delicious cake combo product! This delectable treat features two layers of moist vanilla cake, filled with creamy chocolate ganache and topped with fluffy vanilla buttercream frosting.</p>
                                            <div @click="scrollToAnchorPoint('home')" class="">
-                                           <RouterLink to="/pulse"><p class="text-sm text-red-600">Make an order</p></RouterLink>
+                                           <RouterLink to="/platter2"><p class="text-sm text-red-600">Make an order</p></RouterLink>
                                             </div>
                                         </div>
                                     </div>

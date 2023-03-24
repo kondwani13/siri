@@ -4,11 +4,11 @@
             <nav class="w-full lg:px-16 absolute">
                 <div class="hidden lg:flex w-full f-f-p justify-between items-center py-6 relative">
                     <div class="w-2/3">
-                     <img class="w-24" src="https://i.ibb.co/KsWJRL6/logo.png" alt="logo" >
+                     <img class="w-24" src="https://i.ibb.co/Nj4g1Jf/logow.png" alt="logo" >
                     </div>
                     <div class="md:w-1/2 xl:w-1/3">
                         <ul class="flex justify-between w-full items-center text-gray-600">
-                            <li class="border-b-4 border-indigo-600 pb-1">
+                            <li class="border-b-4 border-yellow-300 pb-1">
                                 <button @click="scrollToAnchorPoint('home')" class="" >Home</button>
                             </li>
                             <li class="border-b-4 border-transparent pb-1">
@@ -33,26 +33,26 @@
             <nav class="lg:hidden">
                 <div class="flex py-6 justify-between items-center px-4">
                     <div>
-                        <img class="w-24" src="https://i.ibb.co/KsWJRL6/logo.png" alt="logo" >
+                        <img class="w-20 z-50" src="https://i.ibb.co/Nj4g1Jf/logow.png" alt="logo" >
                     </div>
                     <div class="visible flex items-center">
-                        <ul id="list" class="hidden p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16">
-                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
+                        <ul id="list" class="hidden p-3 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 z-40">
+                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-yellow-300 focus:text-yellow-300 focus:outline-none">
                                 <button @click="scrollToAnchorPoint('home')" class="ml-2 font-bold" >Home</button>
                             </li>
-                            <li class="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center" @click="dropdownHandler(this)">
+                            <li class="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-yellow-300 focus:text-yellow-300 focus:outline-none flex justify-center" @click="dropdownHandler(this)">
                                <button @click="scrollToAnchorPoint('product')" class="ml-2 font-bold text-left" >Our product</button>
                             </li>
-                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
+                            <li class="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-yellow-300 flex items-center focus:text-yellow-300 focus:outline-none">
                                 <button @click="scrollToAnchorPoint('order')" class="ml-2 font-bold" >Order</button>
                             </li>
-                            <li class="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center" @click="dropdownHandler(this)">
+                            <li class="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-yellow-300 focus:text-yellow-300 focus:outline-none flex justify-center" @click="dropdownHandler(this)">
                                <button @click="scrollToAnchorPoint('contact')" class="ml-2 font-bold text-left" >Contact</button>
                             </li>
-                            <li class="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center" @click="dropdownHandler(this)">
+                            <li class="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-yellow-300 focus:text-yellow-300 focus:outline-none flex justify-center" @click="dropdownHandler(this)">
                               <button @click="scrollToAnchorPoint('about')" class="ml-2 font-bold text-left" >About us</button>
                             </li>
-                            <li class="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center" @click="dropdownHandler(this)">
+                            <li class="flex flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-yellow-300 focus:text-yellow-300 focus:outline-none flex justify-center" @click="dropdownHandler(this)">
                               <button @click="scrollToAnchorPoint('faq')" class="ml-2 font-bold text-left" >FAQ</button>
                             </li>
                         </ul>
@@ -74,100 +74,102 @@
                 </div>
             </nav>
         </div>
-    <div  class="lg:pt-20 z-20">
+    <div  class="lg:pt-40 z-20 py-8">
        <slider />
     </div>   
      
     </div>
 
     <div class="pb-20">
-        <div class="mx-auto bg-black lg:h-96 h-72">
+      <div style="background-color:#d29146;" class="">    
+        <div class="mx-auto bg-gradient-to-l from-orange-400 to-orange-500 lg:h-96 h-72">
           <div class="mx-auto container w-full flex flex-col justify-center items-center">
             <div class="flex justify-center items-center flex-col">
               <div class="lg:mt-20 mt-9">
                
-                <h2 class="lg:text-3xl pb-2 text-center md:text-2xl text-2xl font-black leading-10 text-white">Online liquor store</h2>
+                <h2 class="lg:text-3xl pb-2 text-center md:text-2xl text-2xl font-black leading-10 text-white">Online cake store</h2>
                 
                 
                 <h2 class="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-white">Taste the difference</h2>
               </div>
-              <div class="mt-6 mx-2 md:mx-0 text-center">
-                <p class="lg:text-lg md:text-base leading-6 text-sm text-white">We save the following</p>
+              <div class="mt-5 mx-2 md:mx-0 text-center">
+                <p class="lg:text-lg md:text-base leading-6 text-sm text-white">Our primary catalog 👇🏽</p>
               </div>
             </div>
           </div>
         </div>
+        </div>
         <div ref="product" class="mx-auto container md:-mt-28 -mt-20 flex justify-center items-center">
           <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-x-2 gap-y-2 lg:gap-x-6 md:gap-x-6 md:gap-y-6 md:gap-y-6">
             <div class="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
-              <div class=" text-center"><img class="w-20" src="https://i.ibb.co/6BMb2WV/vodka.png" alt=""></div>
-              <p class="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">VodKa</p>
+              <div class=" text-center"><img class="w-16" src="https://i.ibb.co/CWxZ4h7/party.png" alt=""></div>
+              <p class="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Party-cakes</p>
             </div>
             <div class="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
-              <div class=" text-center"><img class="w-20" src="https://i.ibb.co/SrmMDF4/lager.png" alt=""></div>
-              <p class="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">sider</p>
+              <div class=" text-center"><img class="w-16" src="https://i.ibb.co/bHzqm9T/wed.png" alt=""></div>
+              <p class="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Wedding-cakes</p>
             </div>
             <div class="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
-              <div class=" text-center"><img class="w-20" src="https://i.ibb.co/p1vDfKp/sider.png" alt=""></div>
-              <p class="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Spirit</p>
+              <div class=" text-center"><img class="w-16" src="https://i.ibb.co/HDMH5cH/cup.png" alt=""></div>
+              <p class="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Cupcakes</p>
             </div>
             <div class="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
-              <div class=" text-center"><img class="w-20" src="https://i.ibb.co/x5T7pyf/wine.png" alt=""></div>
-              <p class="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Wine</p>
+              <div class=" text-center"><img class="w-16" src="https://i.ibb.co/TBGqjjN/birth.png" alt=""></div>
+              <p class="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Birthday-cakes</p>
             </div>
           </div>
         </div>
         </div>
         <feature />
 
-    <img class="w-full -mt-5" src="https://i.ibb.co/x2qt9Vp/hero.png" alt="">
+    <img class="w-full -mt-5" src="https://i.ibb.co/425WxH3/c123.png" alt="">
 
-     <div ref="order" class="bg-gray-50 text-center lg:py-10 md:py-8 py-6">
-                <p class="w-10/12 mx-auto md:w-full font-semibold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-center text-gray-800">Sold in packs</p>
+     <div ref="order" class="bg-white text-center p-4">
+                <p class="w-10/12 mx-auto md:w-full font-semibold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-center text-gray-800"></p>
             
             </div>
 
             
             <div class="lg:px-20 lg:py-16 px-5 py-5 grid lg:grid-cols-3 grid-cols-2  gap-4">
 <div @click="scrollToAnchorPoint('home')" class="rounded hover:shadow lg:p-10 p-4" >
-<RouterLink to="/vodka">
-<img class="w-40" src="https://i.ibb.co/r5nSBnT/vod.png" alt="vod">
-<h2 class="">VodKa</h2>
+<RouterLink to="/choc">
+<img class="w-40" src="https://i.ibb.co/xXb8YDS/choc.png" alt="choc">
+<h2 class="">Chocolate cake</h2>
 <p class="">k320</p>
 </RouterLink>
 </div>
 <div @click="scrollToAnchorPoint('home')" class="rounded hover:shadow lg:p-10 p-4">
-<RouterLink to="/gen">
-<img class="w-40" src="https://i.ibb.co/PtRNBtm/shot.png" alt="shot">
-<h2 class="">Double shot</h2>
+<RouterLink to="/vanila">
+<img class="w-40" src="https://i.ibb.co/WHXmQns/van2.png" alt="vanilla">
+<h2 class="">vanilla cake</h2>
 <p class="">k250</p>
 </RouterLink>
 </div>
 <div @click="scrollToAnchorPoint('home')"  class="rounded hover:shadow lg:p-10 p-4">
-<RouterLink to="/shot">
-<img class="w-40" src="https://i.ibb.co/tLTMXZ9/gen.png" alt="gen">
-<h2 class="">Genesis Red Wine</h2>
+<RouterLink to="/lem">
+<img class="w-40" src="https://i.ibb.co/nCpNmR2/lem2.png" alt="gen">
+<h2 class="">Lemon cake</h2>
 <p class="">k240</p>
 </RouterLink>
 </div>
 <div @click="scrollToAnchorPoint('home')" class="rounded hover:shadow lg:p-10 p-4">
-<RouterLink to="/gen">
-<img class="w-40" src="https://i.ibb.co/PtRNBtm/shot.png" alt="shot">
-<h2 class="">Double shot</h2>
+<RouterLink to="/strew">
+<img class="w-40" src="https://i.ibb.co/y6gKwHV/straw2.png" alt="Strawberry">
+<h2 class="">Strawberry cake</h2>
 <p class="">240</p>
 </RouterLink>
 </div>
 <div @click="scrollToAnchorPoint('home')" class="rounded hover:shadow lg:p-10 p-4">
-<RouterLink to="/vodka">
-<img class="w-40" src="https://i.ibb.co/r5nSBnT/vod.png" alt="vod">
-<h2 class="">Vodka</h2>
+<RouterLink to="/velvet">
+<img class="w-40" src="https://i.ibb.co/wYwML9B/velv2.png" alt="velvet">
+<h2 class="">Velvet cake</h2>
 <p class="">320</p>
 </RouterLink>
 </div>
 <div @click="scrollToAnchorPoint('home')" class="rounded hover:shadow lg:p-10 p-4">
-<RouterLink to="/shot">
-<img class="w-40" src="https://i.ibb.co/tLTMXZ9/gen.png" alt="gen">
-<h2 class="">Genesis Red Wine</h2>
+<RouterLink to="/choc">
+<img class="w-40" src="https://i.ibb.co/xXb8YDS/choc.png" alt="gen">
+<h2 class="">Chocolate cake</h2>
 <p class="">k240</p>
 </RouterLink>
 </div>
@@ -181,7 +183,7 @@
 
    <div ref='contact' class="container mx-auto pt-16">
         <div class="lg:flex">
-            <div class="xl:w-2/5 lg:w-2/5 bg-black py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
+            <div style="background-color:#d29146;" class="xl:w-2/5 lg:w-2/5 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
                 <div class="xl:w-5/6 xl:px-0 px-8 mx-auto">
                     <h1 class="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
                     <p class="text-xl text-white pb-8 leading-relaxed font-normal lg:pr-4">Got a question about us? Are you interested in partnering with us? Have some suggestions or just want to say Hi? Just contact us. We are here to assist you.</p>
@@ -194,7 +196,7 @@
                                 <path d="M15 3a6 6 0 0 1 6 6" />
                             </svg>
                         </div>
-                        <p class="pl-4 text-white text-base">+260 973 096 810</p>
+                        <p class="pl-4 text-white text-base">+260 978 700 956</p>
                     </div>
                     <div class="flex items-center">
                         <div>
@@ -204,12 +206,12 @@
                                 <polyline points="3 7 12 13 21 7" />
                             </svg>
                         </div>
-                        <p class="pl-4 text-white text-base">siri24@gmail.com</p>
+                        <p class="pl-4 text-white text-base">caramelcakes@gmail.com</p>
                     </div>
                     <p class="text-lg text-white pt-10 tracking-wide">
                         P.O. BOX 50015, Lusaka, Zambia
                         <br />
-                        Off Mungwi Road.
+                        .
                     </p>
                     <a href="javascript:void(0)">
                         <a  href="" class="text-white pt-16 font-bold tracking-wide underline">Location📌</a>
@@ -218,7 +220,7 @@
             </div>
             <div style="z-index: 50;" class="relative xl:w-3/5 lg:w-3/5 bg-gray-200 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
                 <form @submit.prevent="sendEmail" class="bg-white py-4 px-8 rounded-tr rounded-br">
-                    <h1 class="text-4xl text-gray-800 font-extrabold mb-6">Enter Details</h1>
+                    <h1 style="color:#d29146;" class="text-4xl font-extrabold mb-6">Enter Details</h1>
                     <div class="block xl:flex w-full flex-wrap justify-between mb-6">
                         <div class="w-2/4 max-w-xs mb-6 xl:mb-0">
                             <div  class="flex flex-col">
@@ -246,7 +248,7 @@
                             <label class="text-sm font-semibold text-gray-800 mb-2">Message</label>
                             <textarea placeholder="" name="message"  v-model="message" class="border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-black" rows="8" ></textarea>
                         </div>
-                        <button  type="submit" value="Send" class="focus:outline-none bg-black transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm leading-6">Submit</button>
+                        <button style="background-color:#d29146;"  type="submit" value="Send" class="focus:outline-none bg-black transition duration-150 ease-in-out hover:bg-yellow-300 rounded text-white px-8 py-3 text-sm leading-6">Submit</button>
                     </div>
                 </form>
             </div>
@@ -257,7 +259,7 @@
     <div class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4  py-12">
       <div class="flex flex-col items-center justify-center">
         <div class="flex items-center">
-          <img class="w-32" src="https://i.ibb.co/KsWJRL6/logo.png" alt="logo" >
+          <img class="w-32" src="https://i.ibb.co/Nj4g1Jf/logow.png" alt="logo" >
         </div>
         <div class="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-8">
           <button  @click="scrollToAnchorPoint('home')" class="focus:underline focus:outline-none hover:text-gray-500 text-base cursor-pointer leading-4 text-gray-800">Home</button>
@@ -294,7 +296,7 @@
           </button>
         </div>
         <div class="flex items-center mt-6">
-          <p class="text-base  leading-4 text-gray-800">2023 <span class="font-semibold">Siri Investment ltd</span></p>
+          <p class="text-base  leading-4 text-gray-800">2023 <span class="font-semibold">Caramel Cakes</span></p>
           <div class="border-l border-gray-800 pl-2 ml-2">
             <p class="text-base leading-4 text-gray-800">All rights reserved</p>
           </div>
