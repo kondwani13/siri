@@ -40,7 +40,7 @@
                         
                     </div>
       
-                     <a a href="https://wa.me/260973096810"> <button class="focus:outline-none focus:ring-2 hover:bg-black focus:ring-offset-2 focus:ring-gray-800 font-medium text-base leading-4 text-white bg-gray-800 w-full py-5 lg:mt-12 mt-6 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100">Buy</button></a>
+                     <a a href="https://wa.me/260978700956"> <button class="focus:outline-none focus:ring-2 hover:bg-black focus:ring-offset-2 focus:ring-gray-800 font-medium text-base leading-4 text-white bg-gray-800 w-full py-5 lg:mt-12 mt-6 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100">Buy</button></a>
                 </div>
       
                 <!-- Preview Images Div For larger Screen-->
